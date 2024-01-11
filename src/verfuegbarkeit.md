@@ -37,6 +37,7 @@ flowchart TB
 - RAID6 (double parity)
 
 > „Prüfungsvorbereitung Fachinformatiker Systemintegration“ 2.6.4. (Seite 66)
+> mehr Infos zu RAID gibt es auch unter: https://www.thomas-krenn.com/de/wikiDE/index.php?title=RAID
 
 ### Redundanz in Netzwerken
 
@@ -63,8 +64,8 @@ z.B.
 
 ```mermaid
 flowchart TB
-  ReduntanteRouter --> IETF --> VRRP
-  ReduntanteRouter --> Cisco
+  RedundanteRouter --> IETF --> VRRP
+  RedundanteRouter --> Cisco
   Cisco --> GLBR
   Cisco --> HSRP
 ```
